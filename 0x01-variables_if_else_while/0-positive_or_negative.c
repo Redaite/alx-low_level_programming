@@ -5,7 +5,7 @@
 * main -> assign a random numebr to the variable |
 * based a comdition
 * Return : always 0
-*/ 
+*/
 int main(void)
 {
 int n;
@@ -21,4 +21,3 @@ if (n < 0)
 }
 return (0);
 }
-	
