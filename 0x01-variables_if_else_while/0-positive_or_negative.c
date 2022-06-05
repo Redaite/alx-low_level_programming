@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main -> assign a random numebr to the variable |
-* based a comdition
-* Return : always 0
+*main -> assign a random number to variable n each time it's executed |
+*based a condition
+*Return:always 0
 */
 int main(void)
 {
