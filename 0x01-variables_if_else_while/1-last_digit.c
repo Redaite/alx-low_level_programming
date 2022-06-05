@@ -2,24 +2,24 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*main -> assign a random number to the variable n each time it is executed.
-*betty style doc for function main goes there
-*based on condition
-*Return:always 0
-*/
+*main -> assign a random number to the variable n each time it is excuted
+*and print the last digit of the number stored in the variable n
+*Return : always 0
+**/
 int main(void)
 {
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n >= 5)
-	printf("%d is greaterthan 5\n", n);
+printf("Last digit of %d is ", n);
+if (n > 5)
+	printf("greaterthan 5");
 if (n == 0)
-	printf("%d is 0\n", n);
+	printf("0");
 if (n < 6 && n != 0)
 {
-	printf("%d is less than 6 and not 0\n", n);
+	printf("less than 6 and not 0");
 }
-/* your code goes there */
+printf("\n");
 return (0);
 }
