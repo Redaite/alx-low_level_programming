@@ -2,11 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* more headers goes there
-* betty style doc for function main goes there assign a random number
-*to the variable n each time it is executed.
-*Complete the source code in order to print the last digit of the number
-stored in the variable n.
+*main -> assign a random number to the variable n each time it is executed.
+*betty style doc for function main goes there
+*based on condition
+*Return:always 0
 */
 int main(void)
 {
@@ -21,5 +20,6 @@ if (n < 6 && n != 0)
 {
 	printf("%d is less than 6 and not 0\n", n);
 }
+/* your code goes there */
 return (0);
 }
