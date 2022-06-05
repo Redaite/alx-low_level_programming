@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
+* main - entry point
+* prints string character using printf
 *main -> a program that prints the alphabet in uppercase,followedby a new line.
- *Return : always 0
+ *  Return: Always 0(Success)
  */
 int main(void)
 {
