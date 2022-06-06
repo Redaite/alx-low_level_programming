@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
 *main -> a program that print all possible different combination of three digit
-*Return: always 0
-**/
-int main(void)
+* Return: always 0
+*/
+int main (void)
 {
 int ch;
 int n;
