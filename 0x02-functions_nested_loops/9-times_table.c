@@ -17,7 +17,7 @@ if ((n / 10) == 0)
 if (j != 0)
 _putchar(' ');
 _putchar(n + '0');
-if (j == 9)				
+if (j == 9)
 continue;
 _putchar(',');
 _putchar(' ');
