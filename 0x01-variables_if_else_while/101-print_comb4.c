@@ -3,7 +3,7 @@
 *main -> a program that print all possible different combination of three digit
 * Return: always 0
 */
-int main (void)
+int main(void)
 {
 int i;
 for (i = 48; i < 56; i++)
